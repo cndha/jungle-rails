@@ -17,8 +17,8 @@ RSpec.feature "Product Details", type: :feature, js: true do
 
   scenario "Visitor at home page, clicks on product and navigates to product details" do
     visit root_path
-    first(".product h4").click #product.name element navigates to product details
-    #first(".product img").click #product thumbnail navigates to product details
+    # first(".product h4").click #product.name in h4 element navigates to product details
+    first(".product img").click #product thumbnail navigates to product details
     #first(".product").click_link("Details") #Details button navigates to product details
     
     save_screenshot
