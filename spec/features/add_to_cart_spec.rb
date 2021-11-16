@@ -21,9 +21,9 @@ RSpec.feature "Add To Cart", type: :feature, js: true do
     expect(page).to have_content "My Cart (0)"
     # first(".product button").click
     first(".product").click_on 'Add'
-
+    
     save_screenshot
-
+    
     expect(page).to have_content "My Cart (1)"
   end
 
