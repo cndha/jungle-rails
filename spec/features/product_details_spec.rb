@@ -21,9 +21,9 @@ RSpec.feature "Product Details", type: :feature, js: true do
     first(".product img").click #product thumbnail navigates to product details
     #first(".product").click_link("Details") #Details button navigates to product details
     
-    save_screenshot
-
     expect(page).to have_content 'Description'
+    
+    # save_screenshot
   end
 
 end
