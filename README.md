@@ -1,6 +1,12 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini, basic e-commerce application built with Rails 4.2 for purposes of learning Ruby on Rails by example.
+
+## Final Product
+![List of all the products on the homepage]()
+![Single product details page]()
+![MyCart list ready for checkout]()
+
 
 ## Additional Steps for Apple M1 Machines
 
@@ -31,3 +37,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Testing
+* Capybara
+* PhantomJS/Poltergeist
+* RSpec
