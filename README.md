@@ -3,9 +3,9 @@
 A mini, basic e-commerce application built with Rails 4.2 for purposes of learning Ruby on Rails by example.
 
 ## Final Product
-![List of all the products on the homepage]()
-![Single product details page]()
-![MyCart list ready for checkout]()
+![List of all the products on the homepage](https://github.com/cndha/jungle-rails/blob/master/docs/Homepage.png)
+![Single product details page](https://github.com/cndha/jungle-rails/blob/master/docs/ProductDetails.png)
+![MyCart list ready for checkout](https://github.com/cndha/jungle-rails/blob/master/docs/MyCart.png)
 
 
 ## Additional Steps for Apple M1 Machines
